@@ -85,8 +85,8 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "rootscripts",
-        "repo": "riff",
+        "owner": "zirrajunaedh-sudo",
+        "repo": "riff-modifications",
         "releaseType": "release"
       }
     ]
