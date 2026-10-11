@@ -56,6 +56,7 @@ function _setActivity(trackInfo) {
   const startEpoch = trackInfo.startTimestamp || now;
 
   const activity = {
+    name: (trackInfo.title || 'Unknown Track').substring(0, 128),
     type: 2,
     details: (trackInfo.title || 'Unknown Track').substring(0, 128),
     state: trackInfo.artist ? `by ${trackInfo.artist}`.substring(0, 128) : 'Unknown Artist',
